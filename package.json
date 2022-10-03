@@ -1,6 +1,6 @@
 {
   "name": "@irfanreza/nestjs-rate-limiter",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Forked package from ozkanonur/nestjs-rate-limiter. Highly configurable and extensible rate limiter library",
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "test": "jest --config ./jest.config.js"
   },
   "dependencies": {
+    "express": "^4.18.1",
     "rate-limiter-flexible": "2.1.10"
   },
   "devDependencies": {
