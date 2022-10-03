@@ -1,10 +1,10 @@
 {
   "name": "@irfanreza/nestjs-rate-limiter",
-  "version": "1.0.0",
-  "description": "Highly configurable and extensible rate limiter library",
+  "version": "1.0.1",
+  "description": "Forked package from ozkanonur/nestjs-rate-limiter. Highly configurable and extensible rate limiter library",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozkanonur/nestjs-rate-limiter.git"
+    "url": "git+https://github.com/irfanreza/nestjs-rate-limiter.git"
   },
   "keywords": [
     "nestjs",
@@ -14,23 +14,23 @@
     "security"
   ],
   "main": "dist/index.js",
-  "author": "Onur Ozkan <contact@onurozkan.dev>",
+  "author": "Irfan Reza <muhammad.irfan.reza@gmail.com>",
   "contributors": [
-    "Onur Ozkan <onurozkan.dev@outlook.com>",
-    "Ryan Dowling <ryan@ryandowling.me>"
+    "Irfan Reza <muhammad.irfan.reza@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ozkanonur/nestjs-rate-limiter/issues"
+    "url": "https://github.com/irfanreza/nestjs-rate-limiter/issues"
   },
-  "homepage": "https://github.com/ozkanonur/nestjs-rate-limiter#readme",
+  "homepage": "https://github.com/irfanreza/nestjs-rate-limiter#readme",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "lint": "prettier --write lib",
-    "test": "jest --config ./jest.config.js"
+    "test": "jest --config ./jest.config.js",
+    "prepublish": "npm run build:typescript"
   },
   "dependencies": {
     "rate-limiter-flexible": "2.1.10"
