@@ -29,8 +29,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "lint": "prettier --write lib",
-    "test": "jest --config ./jest.config.js",
-    "prepublish": "npm run build:typescript"
+    "test": "jest --config ./jest.config.js"
   },
   "dependencies": {
     "rate-limiter-flexible": "2.1.10"
