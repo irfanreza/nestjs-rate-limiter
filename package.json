@@ -1,6 +1,6 @@
 {
   "name": "@irfanreza/nestjs-rate-limiter",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Forked package from ozkanonur/nestjs-rate-limiter. Highly configurable and extensible rate limiter library",
   "repository": {
     "type": "git",
